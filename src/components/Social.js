@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react'
-import photo from '../assets/images/photo.jpg'
+import photo from '../assets/images/propic.jpg'
 import { FaFacebook, FaLinkedin, FaTwitter, FaGithub, FaInstagram } from "react-icons/fa";
 import { SiTryhackme, SiHackthebox } from "react-icons/si"
 import { MdEmail } from "react-icons/md"
@@ -21,7 +21,7 @@ const Social = () => {
                     
                 </div>
         <div className='propic'>
-            <img src={photo} alt='jsbbdcbsjdbcj' height={200} width={200} />
+            <img src={photo} alt='Profilepicture' height={200} width={200} />
         </div>
 
         <div className='details'>
@@ -46,7 +46,7 @@ const Social = () => {
         </div>
         
         <div className='animation-main-text' data-aos="fade-right">
-                <p style={{textAlign:'center'}}>--Protego Maximux 🤍--</p>
+                <p style={{textAlign:'center'}}>--Protego Maximum 🤍--</p>
         </div>
         
         

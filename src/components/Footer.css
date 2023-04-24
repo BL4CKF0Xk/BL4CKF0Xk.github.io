@@ -1,0 +1,47 @@
+.footer{
+    width:100%;
+    padding-top: 6rem;
+    background-color: rgba(19, 19, 19, 0.8);
+}
+
+.footer-container{
+    max-width: 1140px;
+    margin: auto;
+    display: grid;
+    grid-gap: 40px;
+}
+
+.footer .texthead{
+    text-align: center;
+}
+
+.footer-container .social{
+    margin-top: 1rem;
+    display: flexbox;
+    justify-content: center;
+    text-align: center;
+}
+
+h4{
+    font-size: 1.2rem;
+    padding-bottom: 0.7rem;
+}
+
+p{
+    font-size: 1.2rem;
+}
+
+.emailspan{
+    font-weight: 700;
+}
+
+.foottext{
+    font-size: small;
+    text-align: center;
+    padding: 10px;
+}
+
+.footcon{
+    padding: 5rem;
+}
+

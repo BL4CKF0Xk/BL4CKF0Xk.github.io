@@ -1,0 +1,71 @@
+.ProCard2{
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.headingsli{
+    text-align: center;
+    padding-top: 50px;
+    font-size: 70px;
+}
+
+.CardCss{
+    padding: 20px;
+    width:70rem;
+}
+
+.Protext{
+    font-size:30px;
+    font-weight:700;
+}
+
+@media screen and (max-width:640px){
+    .headingsli{
+        font-size: 40px;
+        padding-bottom: 50px;
+    }
+    .Protext{
+        font-size:20px;
+        font-weight:700;
+    }
+    .CardCss{
+        padding: 0 0;
+        width:15rem;
+    }
+    .ProCard2{
+        padding: 40px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .cardtext{
+        color: rgba(134, 125, 125, 0.2);
+    }
+    
+}
+
+@media screen and (max-width:1000px){
+    .headingsli{
+        font-size: 40px;
+        padding-bottom: 50px;
+    }
+    .Protext{
+        font-size:20px;
+        font-weight:700;
+    }
+    .CardCss{
+        padding: 0 0;
+        width:15rem;
+    }
+    .ProCard2{
+        padding: 40px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .cardtext{
+        color: rgba(134, 125, 125, 0.2);
+    }
+}

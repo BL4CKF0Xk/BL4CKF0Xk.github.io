@@ -1,0 +1,41 @@
+.ProCard{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.heading{
+    text-align: center;
+    font-size: 50px;
+}
+
+@media screen and (max-width:640px){
+    .ProCard{
+        padding-top: 100px;
+        padding-bottom: 100px;
+        padding-left: 20px;
+        padding-right: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .text-center{
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:640px){
+    .ProCard{
+        padding-top: 100px;
+        padding-bottom: 100px;
+        padding-left: 20px;
+        padding-right: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+}

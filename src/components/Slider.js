@@ -11,21 +11,21 @@ const Slider = () => {
       <h1 className='heading'>Projects</h1>
       <div className='ProCard'>
         <Link to="/projects/intro-to-htb-academy">
-        <Card style={{width:'18rem'}} className="text-center CardCss">
+        <Card className="text-center CardCss">
           <Card.Body>
             <Card.Title style={{fontSize:'30px',fontWeight:'700'}}>Intro To HTB Academy</Card.Title>
           </Card.Body>
         </Card>
         </Link>
         <Card.Link href="#">
-        <Card style={{width:'18rem'}} className="text-center CardCss">
+        <Card className="text-center CardCss">
           <Card.Body>
             <Card.Title style={{fontSize:'30px',fontWeight:'700'}}>Penetration Testing Process</Card.Title>
           </Card.Body>
         </Card> 
         </Card.Link>
         <Card.Link href="#">
-        <Card style={{width:'18rem'}} className="text-center CardCss">
+        <Card className="text-center CardCss">
           <Card.Body>
             <Card.Title style={{fontSize:'30px',fontWeight:'700'}}>Certification To Follow in Cybersecurity</Card.Title>
           </Card.Body>

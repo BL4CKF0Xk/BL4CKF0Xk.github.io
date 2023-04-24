@@ -9,7 +9,7 @@ const Slider2 = () => {
   return (
     <>
       <h1 className='headingsli'>Projects</h1>
-      <div className='ProCard2'>
+      <div className='ProCard2' style={{paddingLeft:'20'}}>
         <Link to="/projects/intro-to-htb-academy">
         <Card className="text-center CardCss">
           <Card.Body>

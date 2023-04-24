@@ -56,13 +56,13 @@ const About = () => {
 return (
     <>
     <div className='paths'>
-        <div className='carding' onMouseOver={handleMouseOverHack} onMouseOut={handleMouseOutHack}>
+        <div className='carding' onMouseOver={handleMouseOverHack} onScroll={handleMouseOverHack} onMouseOut={handleMouseOutHack}>
           {!isHovering && (
             <h2>Hacking</h2>
           )}
             
             {isHovering && (
-                <div className='animation' data-aos="fade-up">
+                <div className='animation-main-text' data-aos="fade-up">
                     <p>"Amateurs hack systems, professionals hack people"</p>
                 </div>
             )}

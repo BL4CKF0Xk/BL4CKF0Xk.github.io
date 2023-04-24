@@ -1,11 +1,10 @@
 .ProCard{
     padding-top: 100px;
     padding-bottom: 100px;
-    padding-left: 20px;
+    padding-left:200px;
     padding-right: 20px;
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    flex-direction: column;
 }
 
 .heading{
@@ -15,10 +14,7 @@
 
 @media screen and (max-width:640px){
     .ProCard{
-        padding-top: 100px;
-        padding-bottom: 100px;
-        padding-left: 20px;
-        padding-right: 20px;
+        padding-left: 25%;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
@@ -26,16 +22,23 @@
     .text-center{
         text-align: center;
     }
+    .CardCss{
+        padding-top: 5px;
+        padding-bottom: 15px;
+    }
+    .text-center{
+        margin-bottom: 20px;
+    }
 }
 
-@media screen and (max-width:640px){
+@media screen and (max-width:1000px){
     .ProCard{
-        padding-top: 100px;
-        padding-bottom: 100px;
-        padding-left: 20px;
-        padding-right: 20px;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
+    }
+    .CardCss{
+        padding-top: 5px;
+        padding-bottom: 15px;
     }
 }

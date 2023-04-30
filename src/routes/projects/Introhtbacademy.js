@@ -1,6 +1,6 @@
 import React from 'react'
 import { IoIosArrowBack } from 'react-icons/io'
-import './Introhtbacademy.css'
+import './blogpost.css'
 
 // import SyntaxHighlighter from 'react-syntax-highlighter';
 // import { atomOneDark } from 'react-syntax-highlighter/dist/esm/styles/hljs';

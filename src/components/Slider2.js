@@ -10,6 +10,16 @@ const Slider2 = () => {
     <>
       <h1 className='headingsli'>Projects</h1>
       <div className='ProCard2'>
+      <Link to="/projects/Assembly_Data_Types">
+        <Card className="text-center CardCss">
+          <Card.Body>
+            <Card.Title className='Protext'>Starting On Assembly Language</Card.Title>
+            <Card.Text className='cardtext'>
+              I'm looking forward to learn reverse enjineering, so I think it is good to learn assembly language before starting on reverse enjineering.
+              </Card.Text>
+          </Card.Body>
+        </Card>
+        </Link>
       <Link to="/projects/Way-of-learning">
         <Card className="text-center CardCss">
           <Card.Body>

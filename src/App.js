@@ -7,6 +7,7 @@ import Projects from './routes/Projects';
 import Introhtbacademy from './routes/projects/Introhtbacademy';
 import Wayofthinking from './routes/projects/Wayofthinking'; 
 import Wayoflearning from './routes/projects/Wayoflearning';
+import Assemblydatatypes from './routes/projects/Assembly_Data_Types';
  
 import { Route, Routes } from 'react-router-dom';
 
@@ -20,6 +21,7 @@ function App() {
         <Route path="/projects/intro-to-htb-academy" element={<Introhtbacademy />} />
         <Route path='/projects/Way-of-thinking' element={< Wayofthinking />} />
         <Route path='/projects/Way-of-learning' element={< Wayoflearning />} />
+        <Route path='/projects/Assembly_Data_Types' element={< Assemblydatatypes />} />
       </Routes>
     </>
   );

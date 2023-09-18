@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/static/css/main.7d051232.css",
-    "main.js": "/static/js/main.69319867.js",
+    "main.js": "/static/js/main.27ca83a8.js",
     "static/media/propic.jpg": "/static/media/propic.1586762349988c700a1f.jpg",
     "static/media/wolf2.jpg": "/static/media/wolf2.b25633ce31064e9ef253.jpg",
     "index.html": "/index.html",
     "main.7d051232.css.map": "/static/css/main.7d051232.css.map",
-    "main.69319867.js.map": "/static/js/main.69319867.js.map"
+    "main.27ca83a8.js.map": "/static/js/main.27ca83a8.js.map"
   },
   "entrypoints": [
     "static/css/main.7d051232.css",
-    "static/js/main.69319867.js"
+    "static/js/main.27ca83a8.js"
   ]
 }

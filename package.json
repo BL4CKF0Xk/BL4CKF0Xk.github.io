@@ -13,7 +13,7 @@
     "react-dom": "^18.2.0",
     "react-icons": "^4.8.0",
     "react-particle-animation": "^2.0.2",
-    "react-router-dom": "^6.10.0",
+    "react-router-dom": "^6.16.0",
     "react-scripts": "5.0.1",
     "react-syntax-highlighter": "^15.5.0",
     "react-text-loop": "^2.3.0",
@@ -26,8 +26,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy" : "npm run build",
-    "deploy" : "gh-pages -d build"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -49,5 +49,16 @@
   },
   "devDependencies": {
     "gh-pages": "^5.0.0"
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BL4CKF0Xk/bl4ckf0xk.github.io.git"
+  },
+  "author": "bl4ckf0xk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BL4CKF0Xk/bl4ckf0xk.github.io/issues"
   }
 }

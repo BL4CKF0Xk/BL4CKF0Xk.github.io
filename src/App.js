@@ -8,6 +8,7 @@ import Introhtbacademy from './routes/projects/Introhtbacademy';
 import Wayofthinking from './routes/projects/Wayofthinking'; 
 import Wayoflearning from './routes/projects/Wayoflearning';
 import Assemblydatatypes from './routes/projects/Assembly_Data_Types';
+import Pentestingbasics from './routes/projects/Pentestingbasics';
  
 import { Route, Routes } from 'react-router-dom';
 
@@ -22,6 +23,7 @@ function App() {
         <Route path='/projects/Way-of-thinking' element={< Wayofthinking />} />
         <Route path='/projects/Way-of-learning' element={< Wayoflearning />} />
         <Route path='/projects/Assembly_Data_Types' element={< Assemblydatatypes />} />
+        <Route path='/projects/Pentestingbasics' element={< Pentestingbasics />} />
       </Routes>
     </>
   );

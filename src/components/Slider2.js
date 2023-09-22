@@ -10,6 +10,16 @@ const Slider2 = () => {
     <>
       <h1 className='headingsli'>Projects</h1>
       <div className='ProCard2'>
+      <Link to="/projects/Pentestingbasics">
+        <Card className="text-center CardCss">
+          <Card.Body>
+            <Card.Title className='Protext'>Pentesting Basics</Card.Title>
+            <Card.Text className='cardtext'>
+              Short description about how Penetration testing process works
+            </Card.Text>
+          </Card.Body>
+        </Card>
+      </Link>
       <Link to="/projects/Assembly_Data_Types">
         <Card className="text-center CardCss">
           <Card.Body>
@@ -50,6 +60,7 @@ const Slider2 = () => {
           </Card.Body>
         </Card>
         </Link>
+        
       </div>
     </>
   )

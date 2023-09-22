@@ -10,10 +10,17 @@ const Slider = () => {
     <>
       <h1 className='heading'>Projects</h1>
       <div className='ProCard'>
-      <Link to="/projects/Way-of-learning">
+      <Link to="/projects/Pentestingbasics">
         <Card className="text-center CardCss">
           <Card.Body>
-            <Card.Title style={{fontSize:'30px',fontWeight:'700'}}>Way Of learning</Card.Title>
+            <Card.Title style={{fontSize:'30px',fontWeight:'700'}}>Pentesting Basics</Card.Title>
+          </Card.Body>
+        </Card>
+        </Link>
+        <Link to="/projects/Assembly_Data_Types">
+        <Card className="text-center CardCss">
+          <Card.Body>
+            <Card.Title style={{fontSize:'30px',fontWeight:'700'}}>Starting On Assembly Language</Card.Title>
           </Card.Body>
         </Card>
         </Link>

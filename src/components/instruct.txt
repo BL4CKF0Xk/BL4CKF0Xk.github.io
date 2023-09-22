@@ -1,4 +1,4 @@
 git add .
-  354  git commit -m "paddint correction"
-  355  git push
-  356  npm run deploy
+git commit -m "paddint correction"
+git push
+npm run deploy

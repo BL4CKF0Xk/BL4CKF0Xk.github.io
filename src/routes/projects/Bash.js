@@ -2,6 +2,7 @@ import React from 'react'
 import { IoIosArrowBack } from 'react-icons/io'
 import './blogpost.css'
 import Video from "./../../assets/videos/pentestbasic.mp4"; 
+import ReactPlayer from 'react-player'
 
 // import SyntaxHighlighter from 'react-syntax-highlighter';
 // import { atomOneDark } from 'react-syntax-highlighter/dist/esm/styles/hljs';
@@ -88,11 +89,7 @@ const Assembly_Data_Types = () => {
             <p className='subheaddes'>Web application provide vast attack surface, making them high-value target for attckers and pentesters</p>
             <p className='subheaddes'>There is a standerdized list of the top 10 web application vulnerabilities maintained by the Open Web Application Security Project  <a href='https://owasp.org/www-project-top-ten/' target="_blank" rel="noreferrer"> <span style={{fontSize:17,color:"red"}}>(OWASP) </span></a> </p>   
 
-            <div className='Video'>
-            <video width={300} height={600} autoPlay="false" >
-                <source src={Video} type="video/mp4" />
-            </video>
-            </div>
+            
             
         </div>
         </div>

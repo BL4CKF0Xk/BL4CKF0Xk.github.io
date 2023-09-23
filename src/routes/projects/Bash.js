@@ -39,15 +39,14 @@ const Bash = () => {
         <h1 className='headingblog'>Bourne Again Shell</h1>
             <p className='subheaddes'>Some of the shells that Bash has borrowed concepts from the Bourne Shell (sh), The Korn Shell (ksh) and the C-shell (csh and it's successor, tcsh).</p>
             <h2 className='subheading'># Key Points </h2>
-            <p className='subheaddes'>Basic Shell Features</p>
             <p className='subheaddes'>Shell Syntax</p>
             <p className='subheaddes'>Shell Commands</p>
 
         <div className='section'>
-            <h2 className='subheading'>Shell Syntax</h2>
+            <h1 className='subheading'>Shell Syntax</h1>
             <p className='subheaddes'>The shell reads its input and divides the input into words and operators, employing the quoting rules to select which meanings to assign varios words and characters</p>
             
-        <h1 className='subheading'># Shell Operations</h1>
+        <h2 className='subheading'># Shell Operations</h2>.
                 <h4>- Reads input from a file / supplied as an argument to the "-C" invocation option / from the user's terminal</h4>
                 <h4>- Breaks the input into words and operators</h4>
                 <h4>- parses the token into simple and compound commands</h4>
@@ -56,19 +55,19 @@ const Bash = () => {
                 <h4>- Execute the command</h4>
                 <h4>- Wait for the command to complete and exit status</h4>
                 
-        <h1 className='headingblog'># Quoting</h1>
-            <p className='subheaddes'> Each of the shell metacharacters[A character that, when unquoted, separates words. A metacharacter is a `space`, `tab`, `newline`, or one of the following characters:
+        <h2 className='subheading'># Quoting</h2>
+            <p className='subheaddes'> Each of the shell metacharacters [ A character that, when unquoted, separates words. A metacharacter is a `space`, `tab`, `newline`, or one of the following characters: ]
             <span><SyntaxHighlighter> 
-            ‘|’, ‘&’, ‘;’, ‘(’, ‘)’, &apos;&lt;&apos;, or &apos;&gt;&apos;]
+            ‘|’, ‘&’, ‘;’, ‘(’, ‘)’, &apos;&lt;&apos;, or &apos;&gt;&apos; 
             </SyntaxHighlighter></span>
              has special meaning to the shell and must be quoted if it is to represent itself</p>
 
-            <h1 className='headingblog'># Comments</h1>
+            <h2 className='subheading'># Comments</h2>
             <p className='subheaddes'> In a shell a word beginning with '#' causes that word and all remaining characters on that line to be ignored.</p>
 
         </div>
         <div className='section'>
-            <h2 className='subheading'>Shell Commands</h2>
+            <h1 className='headingblog'>Shell Commands</h1>
             <h2 className='subheading'> # Reserved Words</h2>
             <p className='subheaddes'> - These are words that have special meaning to the shell. Following words are recognized as reserved when unquoted and the first word of a command</p>
             <p className='subheaddes'>
@@ -90,7 +89,7 @@ const Bash = () => {
             
         </div>
         <div className='section'>
-            <h1 className='headingblog'> # Lists Of Commands</h1>
+            <h2 className='subheading'> # Lists Of Commands</h2>
             <p className='subheaddes'>- A list is a sequence of one or more pipelines seperated by one of the operators ';', '&', '&&'[AND], '||'[OR]</p>
             
         </div>

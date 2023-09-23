@@ -1,10 +1,8 @@
 import React from 'react'
 import { IoIosArrowBack } from 'react-icons/io'
-import './blogpost.css'
-import Video from "./../../assets/videos/pentestbasic.mp4"; 
-import ReactPlayer from 'react-player'
+import './blogpost.css';
 
-// import SyntaxHighlighter from 'react-syntax-highlighter';
+import SyntaxHighlighter from 'react-syntax-highlighter';
 // import { atomOneDark } from 'react-syntax-highlighter/dist/esm/styles/hljs';
 
 import { useNavigate} from 'react-router-dom';
@@ -14,7 +12,7 @@ import Footer from '../../components/Footer'
 import Navbar from '../../components/Navbar';
 import AboutHero from '../../components/AboutHero';
 
-const Assembly_Data_Types = () => {
+const Bash = () => {
 
     const navigate = useNavigate();
 	const goBack = () => {
@@ -30,74 +28,77 @@ const Assembly_Data_Types = () => {
         </button>
         
         <div className='headingblog'>
-            <h1>Common Terms In Pentesting</h1>
+            <h1>Bash Shell</h1>
         </div>
         <div className='headingdet'>
-            <h6>22/9/2023</h6>
+            <h6>23/9/2023</h6>
             <h6>writer: bl4ckf0xk</h6>
         </div>
         <hr></hr>
         <div className='blogbody'>
-        <h1 className='headingblog'>Shell</h1>
-            <p className='subheaddes'># On a linux system</p>
-            <p className='subheaddes'>shell is a program that takes input from the user via the keyboard and passes these commands to the operating system to perform the specific funtion. </p>
-            <p className='subheaddes'>Most Linux systems use a proogram called Bash (Bourne Again Shell) as a shell program to interact with the operating system.</p>
-            
+        <h1 className='headingblog'>Bourne Again Shell</h1>
+            <p className='subheaddes'>Some of the shells that Bash has borrowed concepts from the Bourne Shell (sh), The Korn Shell (ksh) and the C-shell (csh and it's successor, tcsh).</p>
+            <h2 className='subheading'># Key Points </h2>
+            <p className='subheaddes'>Basic Shell Features</p>
+            <p className='subheaddes'>Shell Syntax</p>
+            <p className='subheaddes'>Shell Commands</p>
 
         <div className='section'>
-            <h2 className='subheading'>"Getting a shell" </h2>
-            <p className='subheaddes'>This means that the target host has been exploted, and we have obtained shell-level access and can run commands interactively as if we are sitting logged in to the host</p>
+            <h2 className='subheading'>Shell Syntax</h2>
+            <p className='subheaddes'>The shell reads its input and divides the input into words and operators, employing the quoting rules to select which meanings to assign varios words and characters</p>
             
-        <h1 className='subheading'>Shell Types</h1>
-                <h4>&#62; Reverse Shell     <span style={{fontSize:17,color:"darkorchid"}}>&#91;Initiate a connection back to a "listner"&#93;</span></h4>
-                <h4>&#62; Bind Shell         <span style={{fontSize:17,color:"darkorchid"}}>&#91;"Bind" to a specific port on the target host and wait for a connection&#93;</span></h4>
-                <h4>&#62; Web Shell          <span style={{fontSize:17,color:"darkorchid"}}>&#91;Runs OS commands via the web browser. (Semi interactive)&#93;</span></h4>
+        <h1 className='subheading'># Shell Operations</h1>
+                <h4>- Reads input from a file / supplied as an argument to the "-C" invocation option / from the user's terminal</h4>
+                <h4>- Breaks the input into words and operators</h4>
+                <h4>- parses the token into simple and compound commands</h4>
+                <h4>- Breaking the expanded token into lists of filenames and commands and arguments</h4>
+                <h4>- Perform any necessary redirections</h4>
+                <h4>- Execute the command</h4>
+                <h4>- Wait for the command to complete and exit status</h4>
                 
-        <h1 className='headingblog'>Port</h1>
-            <p className='subheaddes'>A Port can be thought of as a window or door on a house, if a window or door is left open or not locked correctly, we can often gain unauthorized access to home.</p>
-            <p className='subheaddes'>Ports are associated with a specific process or service. Each port is assigned a number, and many are standardized across all network connected devices.</p>
+        <h1 className='headingblog'># Quoting</h1>
+            <p className='subheaddes'> Each of the shell metacharacters[A character that, when unquoted, separates words. A metacharacter is a `space`, `tab`, `newline`, or one of the following characters:
+            <span><SyntaxHighlighter> 
+            ‘|’, ‘&’, ‘;’, ‘(’, ‘)’, &apos;&lt;&apos;, or &apos;&gt;&apos;]
+            </SyntaxHighlighter></span>
+             has special meaning to the shell and must be quoted if it is to represent itself</p>
 
-            <h1>There are Two types of ports</h1>
-                <h4>&#62; Transmission Control Protocol (TCP)</h4>
-                <h4>&#62; User Datagram Protocol (UDP)</h4>
+            <h1 className='headingblog'># Comments</h1>
+            <p className='subheaddes'> In a shell a word beginning with '#' causes that word and all remaining characters on that line to be ignored.</p>
+
+        </div>
+        <div className='section'>
+            <h2 className='subheading'>Shell Commands</h2>
+            <h2 className='subheading'> # Reserved Words</h2>
+            <p className='subheaddes'> - These are words that have special meaning to the shell. Following words are recognized as reserved when unquoted and the first word of a command</p>
+            <p className='subheaddes'>
+                <SyntaxHighlighter>
+                - [ if | then | elif | else | fi | time | for | in | until | while | do | done | case | esac | coproc | select | function | &#123;  &#8739; &#125;  | [[ | ]] | ! ]
+                </SyntaxHighlighter></p>
+            <p className='subheaddes'>- **in** and **do** are recognized as reserved words if they are the third word in a **for** command</p>
+
+            <h2 className='subheading'> # Simple Commands</h2>
+            <p className='subheaddes'>First word generally specifies a command to be executed, with the rest of the words being that command arguments.</p>
+
+            <h2 className='subheading'># Pipeines</h2>
+            <SyntaxHighlighter>
+            - [time [-p]] [!] command1 [ | or |& command2 ]
+            </SyntaxHighlighter>
+            <p className='subheaddes'>The output of each command in the pipeline is connected via a pipe to the input of the next command</p>
+            <p className='subheaddes'>If '|&' is used command1's standard error is connected to command2's standard input</p>
+
             
         </div>
         <div className='section'>
-            <h2 className='subheading'># TCP</h2>
-            <p className='subheaddes'> - Connection between a client and a server must be established before data can be sent.</p>
-
-            <h2 className='subheading'># UDP</h2>
-            <p className='subheaddes'> - There is no "handshake" and therefor introduces a certain amount of unrealiability. [Suitable for applications that run time-sensitive tasks]</p>
-            
-            <p className='subheaddes'>Some of the most well-known <span style={{fontSize:17,color:"darkseagreen"}}>TCP</span> and <span style={{fontSize:17,color:"darkseagreen"}}>UDP</span> ports are listed below:</p>
-            
-                <p><i>Port(s)</i></p>
-                <h4>&#62; 20/21 (TCP) <span style={{fontSize:17,color:"darkgray"}}>&#91;FTP&#93;</span></h4>
-                <h4>&#62; 22 (TCP) <span style={{fontSize:17,color:"darkgray"}}>&#91;SSH&#93;</span></h4>
-                <h4>&#62; 23 (TCP) <span style={{fontSize:17,color:"darkgray"}}>&#91;TELNET&#93;</span></h4>
-                <h4>&#62; 25 (TCP) <span style={{fontSize:17,color:"darkgray"}}>&#91;SMTP&#93;</span></h4>
-                <h4>&#62; 80 (TCP) <span style={{fontSize:17,color:"darkgray"}}>&#91;HTTP&#93;</span></h4>
-                <h4>&#62; 161 (TCP/UDP) <span style={{fontSize:17,color:"darkgray"}}>&#91;SNMP&#93;</span></h4>
-                <h4>&#62; 389 (TCP/UDP) <span style={{fontSize:17,color:"darkgray"}}>&#91;LDAP&#93;</span></h4>
-                <h4>&#62; 443 (TCP) <span style={{fontSize:17,color:"darkgray"}}>&#91;SSL/TLS(HTTPS)&#93;</span></h4>
-                <h4>&#62; 445 (TCP) <span style={{fontSize:17,color:"darkgray"}}>&#91;SMB&#93;</span></h4>
-                <h4>&#62; 3389 (TCP) <span style={{fontSize:17,color:"darkgray"}}>&#91;RDP&#93;</span></h4>
-        </div>
-        <div className='section'>
-            <h1 className='headingblog'>Web Server</h1>
-            <p className='subheaddes'>A web server is an application that runs on the back-end server, which handles all of the <span style={{fontSize:17,color:"darkseagreen"}}>HTTP</span> traffic from the client-side browser, routes it to the requests destination pages, and finally responds to the client-side browser</p>
-            <p className='subheaddes'>Web application provide vast attack surface, making them high-value target for attckers and pentesters</p>
-            <p className='subheaddes'>There is a standerdized list of the top 10 web application vulnerabilities maintained by the Open Web Application Security Project  <a href='https://owasp.org/www-project-top-ten/' target="_blank" rel="noreferrer"> <span style={{fontSize:17,color:"red"}}>(OWASP) </span></a> </p>   
-
-            
+            <h1 className='headingblog'> # Lists Of Commands</h1>
+            <p className='subheaddes'>- A list is a sequence of one or more pipelines seperated by one of the operators ';', '&', '&&'[AND], '||'[OR]</p>
             
         </div>
         </div>
-
 
         <Footer />
     </div>
   )
 }
 
-export default Assembly_Data_Types
+export default Bash

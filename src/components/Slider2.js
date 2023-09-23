@@ -10,6 +10,16 @@ const Slider2 = () => {
     <>
       <h1 className='headingsli'>Projects</h1>
       <div className='ProCard2'>
+      <Link to="/projects/Bash">
+        <Card className="text-center CardCss">
+          <Card.Body>
+            <Card.Title className='Protext'>Bash Shell</Card.Title>
+            <Card.Text className='cardtext'>
+            Bourne Again Shell
+            </Card.Text>
+          </Card.Body>
+        </Card>
+      </Link>
       <Link to="/projects/Pentestingbasics">
         <Card className="text-center CardCss">
           <Card.Body>

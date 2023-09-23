@@ -10,6 +10,7 @@ import Wayoflearning from './routes/projects/Wayoflearning';
 import Assemblydatatypes from './routes/projects/Assembly_Data_Types';
 import Pentestingbasics from './routes/projects/Pentestingbasics';
 import Bash from './routes/projects/Bash';
+import Basictools from './routes/projects/Basic_Tools';
  
 import { Route, Routes } from 'react-router-dom';
 
@@ -26,6 +27,7 @@ function App() {
         <Route path='/projects/Assembly_Data_Types' element={< Assemblydatatypes />} />
         <Route path='/projects/Pentestingbasics' element={< Pentestingbasics />} />
         <Route path='/projects/Bash' element={< Bash />} />
+        <Route path='/projects/Basic_Tools' element={< Basictools />} />
       </Routes>
     </>
   );

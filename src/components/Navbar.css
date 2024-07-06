@@ -43,6 +43,13 @@
 }
 /* //ham */
 
+.logoname{
+    background: linear-gradient(to right, #ffffff, #696869, #2b2b2b, #2d2e2e, #131313, #ecd500 );
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 @media screen and (max-width:1040px){
     .nav-menu{
         flex-direction: column;

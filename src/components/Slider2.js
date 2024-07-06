@@ -10,6 +10,16 @@ const Slider2 = () => {
     <>
       <h1 className='headingsli'>Projects</h1>
       <div className='ProCard2'>
+      <Link to="/projects/Making_Shellcode">
+        <Card className="text-center CardCss">
+          <Card.Body>
+            <Card.Title className='Protext'>Making First ShellCode</Card.Title>
+            <Card.Text className='cardtext'>
+              I'm going to make my first shellcode using Assembly language.
+            </Card.Text>
+          </Card.Body>
+        </Card>
+      </Link>
       <Link to="/projects/Basic_Tools">
         <Card className="text-center CardCss">
           <Card.Body>

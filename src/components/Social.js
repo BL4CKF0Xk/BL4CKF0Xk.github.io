@@ -26,19 +26,22 @@ const Social = () => {
 
         <div className='details'>
                 <div className='animation-main-text' data-aos="fade-right">
-                        <p>-Studied in TryHackMe</p>
+                        <p>-Computer Science Student at IIT</p>
+                </div>
+                <div className='animation-main-text' data-aos="fade-right">
+                        <p>-Studies in TryHackMe</p>
                 </div>
                 <div className='animation-main-text' data-aos="fade-right">
                         <p>-Studies in HacktheBox Academy</p>
                 </div>
                 <div className='animation-main-text' data-aos="fade-right">
-                        <p>-Working in Sampath Bank as an Intern</p>
+                        <p>-Worked in Sampath Bank as an Intern</p>
                 </div>
                 <div className='animation-main-text' data-aos="fade-right">
                         <p>-Interested in Reverse Engineering</p>
                 </div>
                 <div className='animation-main-text' data-aos="fade-right">
-                        <p>-Learning Assembly language</p>
+                        <p>-Learning Assembly language and ShellCoding</p>
                 </div>
                 <div className='animation-main-text' data-aos="fade-right">
                         <p>-Selenophile 🌙</p>

@@ -1,34 +1,34 @@
 .footer{
     width:100%;
-    padding-top: 6rem;
-    background-color: rgba(19, 19, 19, 0.8);
+    padding-top: 3rem;
+    background-color: rgba(0, 0, 0);
+    bottom: 0;
 }
 
 .footer-container{
     max-width: 1140px;
     margin: auto;
     display: grid;
-    grid-gap: 40px;
+    /* grid-gap: 40px; */
 }
 
-.footer .texthead{
+/* .footer .texthead{
     text-align: center;
-}
+} */
 
-.footer-container .social{
+/* .footer-container .social{
     margin-top: 1rem;
     display: flexbox;
     justify-content: center;
     text-align: center;
-}
+} */
 
 h4{
-    font-size: 1.2rem;
-    padding-bottom: 0.7rem;
+    font-size: 1rem;
 }
 
 p{
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 
 .emailspan{
@@ -38,10 +38,10 @@ p{
 .foottext{
     font-size: small;
     text-align: center;
-    padding: 10px;
+    /* padding: 10px; */
 }
 
 .footcon{
-    padding: 5rem;
+    padding-left: 5rem;
 }
 

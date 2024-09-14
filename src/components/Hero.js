@@ -1,51 +1,52 @@
-import "./Hero.css";
-import Image1 from '../assets/images/wolf2.jpg';
-import React, { useState,useCallback ,useEffect } from 'react'
-import Typed from 'react-typed';
+import './Hero.css';
+import React, { useState, useCallback, useEffect } from 'react';
 
 const names = [
   'Penetration Tester',
   'Cyber Security Analyst',
   'React Developer',
-]
+];
 
 function Hero() {
-  const [newName, setnewName] = useState("");
+  const [newName, setnewName] = useState('');
 
-    const shuffle = useCallback(() => {
-        const index = Math.floor(Math.random() * names.length);
-        setnewName(names[index]);
-    }, []);
+  const shuffle = useCallback(() => {
+    const index = Math.floor(Math.random() * names.length);
+    setnewName(names[index]);
+  }, []);
 
-    useEffect(() => {
-        const intervalID = setInterval(shuffle, 2000);
-        return () => clearInterval(intervalID);
-    }, [shuffle])
+  useEffect(() => {
+    const intervalID = setInterval(shuffle, 2000);
+    return () => clearInterval(intervalID);
+  }, [shuffle]);
+
   return (
     <div className="hero">
-        <div className="mask">
-            <img className="into-img" 
-                src={Image1} alt="IntroImg" />
+      <div className="mask">
+        <div className="detail">
+          <p>
+            I’m <span style={{ color: '#00ff00' }}>bl4ckf0xk</span> (Kavindu Sahan), <span style={{ color: 'red' }}>Reverse</span> Engineer and Security Researcher
+            <br />
+            Technical Consultant at Inivos | Defensive Security Analyst
+            <br />
+            Blockchain & AI security tester
+            <br />
+            Web developer
+          </p>
+          <div className="quotes">^Quotes : hbdhbvdbv vsvg vfd vydf vgdv gd vghdv hg vhdfd  vfyv fd vfy vdv fyv yfv </div>
+          <div className="highlights">
+            ^Highlights :
+            <ul>
+              <li>hbdhbvdbv vsvg vfd vydf vgdv gd vghdv hg vhdfd vfyv fd vfy vdv fyv yfv</li>
+              <li>hbdhbvdbv vsvg vfd vydf vgdv gd vghdv hg vhdfd vfyv fd vfy vdv fyv yfv</li>
+              <li>hbdhbvdbv vsvg vfd vydf vgdv gd vghdv hg vhdfd vfyv fd vfy vdv fyv yfv</li>
+              <li>hbdhbvdbv vsvg vfd vydf vgdv gd vghdv hg vhdfd vfyv fd vfy vdv fyv yfv</li>
+            </ul>
+          </div>
         </div>
-        <div className="content">
-            <p>Hi, I'm {" "}
-                <Typed
-                    strings={[
-                      'KAVINDU SAHAN 🌠',
-                      'BLACKFOXk 🌙'
-                    ]}
-                    typeSpeed={70}
-                    backSpeed={50}
-                    loop
-                />
-            </p>
-            <h1 className="txtcol">
-              {newName}
-              
-            </h1>
-        </div>
+      </div>
     </div>
-  )
+  );
 }
 
-export default Hero
+export default Hero;

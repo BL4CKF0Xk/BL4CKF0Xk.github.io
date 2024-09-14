@@ -1,7 +1,5 @@
 import "./Footer.css";
-import { FaFacebook, FaLinkedin, FaTwitter, FaGithub, FaInstagram, FaTelegram, FaDiscord, FaSpotify } from "react-icons/fa";
 import { BiCopyright } from "react-icons/bi"
-import { SiTryhackme, SiHackthebox } from "react-icons/si"
 
 import React from 'react'
 import { Link } from "react-router-dom";

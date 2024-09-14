@@ -10,7 +10,6 @@ import { useNavigate} from 'react-router-dom';
 
 import Footer from '../../components/Footer'
 import Navbar from '../../components/Navbar';
-import AboutHero from '../../components/AboutHero';
 
 const Basic_Tools = () => {
     const code = "something@something[~]$ ssh tom@10.10.10.100 \n \n tom@10.10.10.100's password: *** \n \n tom@10.10.10.100#";
@@ -25,7 +24,6 @@ const Basic_Tools = () => {
   return (
     <div className='containerblog'>
         <Navbar />
-        <AboutHero />
         <button onClick={goBack} style={{background:'none',border:'none',padding:'0',outline:'inherit',cursor:'pointer',color:'inherit'}}>
             <IoIosArrowBack className='iconblo' style={{color:"#fff"}}/>
         </button>

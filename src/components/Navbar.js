@@ -1,5 +1,4 @@
 import "./Navbar.css";
-import { FaBars, FaTimes } from 'react-icons/fa';
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 

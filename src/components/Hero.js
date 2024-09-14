@@ -1,25 +1,7 @@
 import './Hero.css';
-import React, { useState, useCallback, useEffect } from 'react';
-
-const names = [
-  'Penetration Tester',
-  'Cyber Security Analyst',
-  'React Developer',
-];
+import React from 'react';
 
 function Hero() {
-  const [newName, setnewName] = useState('');
-
-  const shuffle = useCallback(() => {
-    const index = Math.floor(Math.random() * names.length);
-    setnewName(names[index]);
-  }, []);
-
-  useEffect(() => {
-    const intervalID = setInterval(shuffle, 2000);
-    return () => clearInterval(intervalID);
-  }, [shuffle]);
-
   return (
     <div className="hero">
       <div className="mask">

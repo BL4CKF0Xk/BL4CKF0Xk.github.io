@@ -10,7 +10,6 @@ import { atomOneDark } from 'react-syntax-highlighter/dist/esm/styles/hljs';
 
 import Footer from '../../components/Footer'
 import Navbar from '../../components/Navbar';
-import AboutHero from '../../components/AboutHero';
 
 const Wayofthinking = () => {
 
@@ -22,7 +21,6 @@ const Wayofthinking = () => {
   return (
     <div className='containerblog'>
         <Navbar />
-        <AboutHero />
         <button onClick={goBack} style={{background:'none',border:'none',padding:'0',outline:'inherit',cursor:'pointer',color:'inherit'}}>
             <IoIosArrowBack className='iconblo' style={{color:"#fff"}}/>
         </button>

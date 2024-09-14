@@ -6,6 +6,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
+https://software.download.prss.microsoft.com/dbazure/Win11_23H2_English_x64v2.iso?t=ad813d8e-5761-43b8-9b20-e0666a6bb503&P1=1726333903&P2=601&P3=2&P4=1plF%2fP55JMqdpn5hBaUMkOwf4QvP3KWJd194Msy5GyiV7aKbjsIm5kVrh4A0U33jo4ScCPQSyIXKi%2bKZunjmZ213zwS4WlJQLR3wfZ6lRvH8LUKb3vJuX1d6C%2bOaex74BThUd24NzsyAB%2bf25HQGY9ic6uiVQz73ohr6dx8YklcM2LbMOdkSo2i0QgzyzAV2sjVOU7%2f0LXAfgn8WF%2fOBSY846pIwAGl4aTc3XWPZYyg5Tv8VQNDRBr5S%2fPVq86ExR623RBPMENj%2fXhQmmDB19bgmQJz1lNTSml9I7nwp1R6NQpbcnVQITgLl0OQK9FtnIo%2fsY3PwYX%2fmyCkMTwU2cw%3d%3d
+
 ### `npm start`
 
 Runs the app in the development mode.\

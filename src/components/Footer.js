@@ -18,10 +18,11 @@ const Footer = () => {
               <a href='https://tryhackme.com/p/BlackFoxK' target="_blank" rel="noreferrer">TryHackMe</a> | 
               <a href='https://www.instagram.com/___kavik___/' target="_blank" rel="noreferrer">Insta</a>
         </p>
+        <p className="simbol">#</p>
         <p>! Links : 
           <Link to='/'>Home</Link> | <Link to='/projects'>Blog</Link> | <Link to='/about'>Fox</Link></p>
         </div>
-        <p className="foottext"><span className="emailspan">kavindusah4n@gmail.com<BiCopyright size={12} style={{color:"#fff"}} /></span>Kavindu Sahan. All Right Reserved</p>
+        <p className="foottext">Kavindu Sahan <BiCopyright size={12} style={{color:"#fff"}} /> All Right Reserved 2024</p>
     </div>
   )
 }

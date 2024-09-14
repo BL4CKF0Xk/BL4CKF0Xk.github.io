@@ -36,7 +36,7 @@ function Hero() {
             <br />
             Web developer
           </p>
-          <div className="quotes">^Quotes :
+          <div className="quotes">^Latest :
             <ul>
               <li>- hbdhbvdbv vsvg vfd vydf vgdv gd vghdv hg vhdfd vfyv fd vfy vdv fyv yfv</li>
               <li>- hbdhbvdbv vsvg vfd vydf vgdv gd vghdv hg vhdfd vfyv fd vfy vdv fyv yfv</li>

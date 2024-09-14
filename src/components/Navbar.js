@@ -19,7 +19,7 @@ const Navbar = () => {
   return (
     <div className={color ? "header header-bg" : "header"}>
         <Link to="/">
-            <h1 className="logo">bl4ckf0xk~# |</h1>
+            <h1 className="logo">bl4ckf0xk~# <span className="blinking-cursor">|</span></h1>
         </Link>
             <li>
                 <Link to="/">🌙</Link>

@@ -32,3 +32,18 @@ li{
     font-size: 1.3rem;
     padding-right: 2rem;
 }
+
+.blinking-cursor{
+    /* font-size: 1.3rem; */
+    color: #fff;
+    animation: blink 1s step-end infinite;
+}
+
+@keyframes blink{
+    from, to{
+        visibility: visible;
+    }
+    50%{
+        visibility: hidden;
+    }
+}

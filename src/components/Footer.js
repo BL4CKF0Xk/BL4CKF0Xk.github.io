@@ -4,6 +4,7 @@ import { BiCopyright } from "react-icons/bi"
 import { SiTryhackme, SiHackthebox } from "react-icons/si"
 
 import React from 'react'
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -17,7 +18,8 @@ const Footer = () => {
               <a href='https://tryhackme.com/p/BlackFoxK' target="_blank" rel="noreferrer">TryHackMe</a> | 
               <a href='https://www.instagram.com/___kavik___/' target="_blank" rel="noreferrer">Insta</a>
         </p>
-        <p>! Links : Home | Blog | Fox</p>
+        <p>! Links : 
+          <Link to='/'>Home</Link> | <Link to='/projects'>Blog</Link> | <Link to='/about'>Fox</Link></p>
         </div>
         <p className="foottext"><span className="emailspan">kavindusah4n@gmail.com<BiCopyright size={12} style={{color:"#fff"}} /></span>Kavindu Sahan. All Right Reserved</p>
     </div>

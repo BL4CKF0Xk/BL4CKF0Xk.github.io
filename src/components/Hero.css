@@ -1,6 +1,6 @@
 .mask{
     width: 100%;
-    height: 80vh;
+    height: 60vh;
     position: relative;
     display: flex;
     justify-content: center;
@@ -24,13 +24,13 @@
 
 .quotes{
     color: #fff;
-    margin-top: 10vh;
+    margin-top: 4vh;
     font-size: 1rem;
 }
 
 .highlights{
     color: #fff;
-    margin-top: 5vh;
+    margin-top: 3vh;
     font-size: 1rem;
 }
 
@@ -43,6 +43,10 @@ li{
 p{
     color: #fff;
     font-size: 1.5rem;
+}
+
+.first-para{
+    margin-bottom: 3vh;
 }
 
 a{

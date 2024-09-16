@@ -1,13 +1,13 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer';
-import Slider2 from '../components/Slider2';
+import ProjectDash from '../components/ProjectDash';
 
 const Projects = () => {
   return (
     <>
       <Navbar />
-      <Slider2 />
+      <ProjectDash />
       <Footer />
     </>
   )

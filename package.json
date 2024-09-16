@@ -1,7 +1,7 @@
 {
   "name": "bl4ckf0xk",
   "version": "0.1.0",
-  "homepage": "https://bl4ckf0xk.github.io/",
+  "homepage": "https://bl4ckf0xk.me/",
   "private": true,
   "dependencies": {
     "@jridgewell/sourcemap-codec": "^1.5.0",
@@ -57,15 +57,15 @@
     "gh-pages": "6.1.1",
     "svgo": "^2.8.0"
   },
-  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "description": "Learn about the world about cybersecurity and delve into Low level stuff",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/BL4CKF0Xk/bl4ckf0xk.github.io.git"
+    "url": "git+https://github.com/bl4ckf0xk/Site.git"
   },
   "author": "bl4ckf0xk",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/BL4CKF0Xk/bl4ckf0xk.github.io/issues"
+    "url": "https://github.com/bl4ckf0xk/Site/issues"
   }
 }

@@ -16,6 +16,7 @@ const Navbar = () => {
     window.addEventListener("scroll",changeColor);
 
   return (
+    <div className="bottom">
     <div className={color ? "header header-bg" : "header"}>
         <Link to="/">
             <h1 className="logo">bl4ckf0xk~# <span className="blinking-cursor">|</span></h1>
@@ -23,6 +24,7 @@ const Navbar = () => {
             <li>
                 <Link to="/">🌙</Link>
             </li>
+    </div>
     </div>
   )
 }

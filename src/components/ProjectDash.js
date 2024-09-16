@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 
 import './Slider2.css'
 
-const Slider2 = () => {
+const ProjectDash = () => {
   return (
     <>
       <h1 className='headingsli'>Projects</h1>
@@ -96,4 +96,4 @@ const Slider2 = () => {
   )
 }
 
-export default Slider2
+export default ProjectDash

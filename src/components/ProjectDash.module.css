@@ -1,24 +1,46 @@
-.ProCard2{
-    padding: 100px;
+.projectdash{
+    align-items:start;
+    padding-left: 5rem;
+    padding-top: 5vh;
+}
+
+.cards{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    width: 40vh;
 }
 
-.headingsli{
-    text-align: center;
-    padding-top: 50px;
-    font-size: 70px;
+.blogtext{
+    text-align:start;
+    padding-top: 4vh;
+    font-size: 4rem;
+}
+
+.headingtwo{
+    color: #fff;
+    font-size: 2vh;
+}
+
+.links{
+    float: right;
+    padding-right: 5rem;
+    font-size: 1rem;
 }
 
 .CardCss{
-    padding: 20px;
-    width:70rem;
+    padding-bottom: 0.5vh;
+    width: 40vh;
 }
 
+.dashedline {
+    display: block;
+  }  
+
 .Protext{
-    font-size:30px;
-    font-weight:700;
+    font-size:2vh;
 }
 
 @media screen and (max-width:640px){

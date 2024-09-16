@@ -1,4 +1,4 @@
-import "./Footer.css";
+import styles from "./Footer.module.css";
 import { BiCopyright } from "react-icons/bi"
 
 import React from 'react'
@@ -6,8 +6,8 @@ import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
-    <div className="footer">
-        <div className="footcon">
+    <div className={styles.footer}>
+        <div className={styles.footcon}>
           <p>
         <span>+ Online Presence</span> : 
               <a href='https://github.com/BL4CKF0Xk' target="_blank" rel="noreferrer">Github</a> | 
@@ -16,11 +16,11 @@ const Footer = () => {
               <a href='https://tryhackme.com/p/BlackFoxK' target="_blank" rel="noreferrer">TryHackMe</a> | 
               <a href='https://www.instagram.com/___kavik___/' target="_blank" rel="noreferrer">Insta</a>
         </p>
-        <p className="simbol">#</p>
+        <p className={styles.simbol}>#</p>
         <p>! Links : 
           <Link to='/'>Home</Link> | <Link to='/projects'>Blog</Link> | <Link to='/about'>Fox</Link></p>
         </div>
-        <p className="foottext">Kavindu Sahan <BiCopyright size={12} style={{color:"#fff"}} /> All Right Reserved 2024</p>
+        <p className={styles.foottext}>Kavindu Sahan <BiCopyright size={12} style={{color:"#fff"}} /> All Right Reserved 2024</p>
     </div>
   )
 }

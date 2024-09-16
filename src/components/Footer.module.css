@@ -1,0 +1,32 @@
+.footer{    
+    width:100%;
+    height: auto;
+    padding-bottom: 2vh;
+    padding-top: 1.5vh;
+    background-color: rgba(0, 0, 0);
+}
+
+.footer-container{
+    max-width: 1140px;
+    margin: auto;
+    display: grid;
+}
+
+p{
+    font-size: 1.2rem;
+}
+
+.foottext{
+    font-size: 1rem;
+    padding-left: 5rem;
+}
+
+.footcon{
+    padding-left: 5rem;
+}
+
+.simbol{
+    float: right;
+    padding-right: 3rem;
+    font-size: 1.5rem;
+}

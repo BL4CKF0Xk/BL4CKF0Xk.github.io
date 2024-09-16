@@ -1,99 +1,193 @@
+import React from "react";
+import Card from "react-bootstrap/Card";
+import { Link } from "react-router-dom";
 
-import React from 'react'
-import Card from 'react-bootstrap/Card'
-import { Link } from 'react-router-dom'
-
-import './Slider2.css'
+import styles from "./ProjectDash.module.css";
 
 const ProjectDash = () => {
   return (
-    <>
-      <h1 className='headingsli'>Projects</h1>
-      <div className='ProCard2'>
-      <Link to="/projects/Making_Shellcode">
-        <Card className="text-center CardCss">
-          <Card.Body>
-            <Card.Title className='Protext'>Making First ShellCode</Card.Title>
-            <Card.Text className='cardtext'>
-              I'm going to make my first shellcode using Assembly language.
-            </Card.Text>
-          </Card.Body>
-        </Card>
-      </Link>
-      <Link to="/projects/Basic_Tools">
-        <Card className="text-center CardCss">
-          <Card.Body>
-            <Card.Title className='Protext'>Basic Tools</Card.Title>
-            <Card.Text className='cardtext'>
-            Some tools we use always
-            </Card.Text>
-          </Card.Body>
-        </Card>
-      </Link>
-      <Link to="/projects/Bash">
-        <Card className="text-center CardCss">
-          <Card.Body>
-            <Card.Title className='Protext'>Bash Shell</Card.Title>
-            <Card.Text className='cardtext'>
-            Bourne Again Shell
-            </Card.Text>
-          </Card.Body>
-        </Card>
-      </Link>
-      <Link to="/projects/Pentestingbasics">
-        <Card className="text-center CardCss">
-          <Card.Body>
-            <Card.Title className='Protext'>Pentesting Basics</Card.Title>
-            <Card.Text className='cardtext'>
-              Short description about how Penetration testing process works
-            </Card.Text>
-          </Card.Body>
-        </Card>
-      </Link>
-      <Link to="/projects/Assembly_Data_Types">
-        <Card className="text-center CardCss">
-          <Card.Body>
-            <Card.Title className='Protext'>Starting On Assembly Language</Card.Title>
-            <Card.Text className='cardtext'>
-              I'm looking forward to learn reverse enjineering, so I think it is good to learn assembly language before starting on reverse enjineering.
-              </Card.Text>
-          </Card.Body>
-        </Card>
+    <div className={styles.projectdash}>
+      <h1 className={styles.blogtext}>Blog</h1>
+      <div className={styles.links}>
+        <p>
+          ! Links :<Link to="/">Home</Link> | <Link to="/projects">Blog</Link> |{" "}
+          <Link to="/about">Fox</Link>
+        </p>
+      </div>
+      <p className={styles.headingtwo}>
+        Details about recent <span style={{ color: "#70FF00" }}>Incidents</span>{" "}
+        in my Learning System
+      </p>
+      <div className={styles.cards}>
+        <Link to="/projects/Making_Shellcode">
+          <Card className={styles.CardCss}>
+            <Card.Body>
+              <Card.Title className={styles.Protext}>
+                (*) Making First ShellCode
+              </Card.Title>
+            </Card.Body>
+          </Card>
+          <svg height="5" width="100%" className={styles.dashedline}>
+              <line
+                x1="0"
+                y1="0"
+                x2="100%"
+                y2="0"
+                style={{
+                  stroke: "white",
+                  strokeWidth: 2,
+                  strokeDasharray: "5, 5",
+                }}
+              />
+            </svg>
         </Link>
-      <Link to="/projects/Way-of-learning">
-        <Card className="text-center CardCss">
-          <Card.Body>
-            <Card.Title className='Protext'>Way of Learning</Card.Title>
-            <Card.Text className='cardtext'>
-              You can start to learn without knowing anything about the right way of learning. But, is it effective?
-              </Card.Text>
-          </Card.Body>
-        </Card>
+        <Link to="/projects/Basic_Tools">
+          <Card className={styles.CardCss}>
+            <Card.Body>
+              <Card.Title className={styles.Protext}>(*) Basic Tools</Card.Title>
+            </Card.Body>
+          </Card>
+          <svg height="5" width="100%" className={styles.dashedline}>
+              <line
+                x1="0"
+                y1="0"
+                x2="100%"
+                y2="0"
+                style={{
+                  stroke: "white",
+                  strokeWidth: 2,
+                  strokeDasharray: "5, 5",
+                }}
+              />
+            </svg>
         </Link>
-      <Link to="/projects/Way-of-thinking">
-        <Card className="text-center CardCss">
-          <Card.Body>
-            <Card.Title className='Protext'>Way Of Thinking</Card.Title>
-            <Card.Text className='cardtext'>
-              Before you start to learn anything you shoud have a good understand about how you can "THINK" about things in a different way.
-            </Card.Text>
-          </Card.Body>
-        </Card>
+        <Link to="/projects/Bash">
+          <Card className={styles.CardCss}>
+            <Card.Body>
+              <Card.Title className={styles.Protext}>(*) Bash Shell</Card.Title>
+            </Card.Body>
+          </Card>
+          <svg height="5" width="100%" className={styles.dashedline}>
+              <line
+                x1="0"
+                y1="0"
+                x2="100%"
+                y2="0"
+                style={{
+                  stroke: "white",
+                  strokeWidth: 2,
+                  strokeDasharray: "5, 5",
+                }}
+              />
+            </svg>
+        </Link>
+        <Link to="/projects/Pentestingbasics">
+          <Card className={styles.CardCss}>
+            <Card.Body>
+              <Card.Title className={styles.Protext}>(*) Pentesting Basics</Card.Title>
+            </Card.Body>
+          </Card>
+          <svg height="5" width="100%" className={styles.dashedline}>
+              <line
+                x1="0"
+                y1="0"
+                x2="100%"
+                y2="0"
+                style={{
+                  stroke: "white",
+                  strokeWidth: 2,
+                  strokeDasharray: "5, 5",
+                }}
+              />
+            </svg>
+        </Link>
+        <Link to="/projects/Assembly_Data_Types">
+          <Card className={styles.CardCss}>
+            <Card.Body>
+              <Card.Title className={styles.Protext}>
+                (*) Starting On Assembly Language
+              </Card.Title>
+            </Card.Body>
+          </Card>
+          <svg height="5" width="100%" className={styles.dashedline}>
+              <line
+                x1="0"
+                y1="0"
+                x2="100%"
+                y2="0"
+                style={{
+                  stroke: "white",
+                  strokeWidth: 2,
+                  strokeDasharray: "5, 5",
+                }}
+              />
+            </svg>
+        </Link>
+        <Link to="/projects/Way-of-learning">
+          <Card className={styles.CardCss}>
+            <Card.Body>
+              <Card.Title className={styles.Protext}>(*) Way of Learning</Card.Title>
+            </Card.Body>
+          </Card>
+          <svg height="5" width="100%" className={styles.dashedline}>
+              <line
+                x1="0"
+                y1="0"
+                x2="100%"
+                y2="0"
+                style={{
+                  stroke: "white",
+                  strokeWidth: 2,
+                  strokeDasharray: "5, 5",
+                }}
+              />
+            </svg>
+        </Link>
+        <Link to="/projects/Way-of-thinking">
+          <Card className={styles.CardCss}>
+            <Card.Body>
+              <Card.Title className={styles.Protext}>(*) Way Of Thinking</Card.Title>
+            </Card.Body>
+          </Card>
+          <svg height="5" width="100%" className={styles.dashedline}>
+              <line
+                x1="0"
+                y1="0"
+                x2="100%"
+                y2="0"
+                style={{
+                  stroke: "white",
+                  strokeWidth: 2,
+                  strokeDasharray: "5, 5",
+                }}
+              />
+            </svg>
         </Link>
         <Link to="/projects/intro-to-htb-academy">
-        <Card className="text-center CardCss">
-          <Card.Body>
-            <Card.Title className='Protext'>Intro To HTB Academy</Card.Title>
-            <Card.Text className='cardtext'>
-              Short description about how Penetration testing process works
-            </Card.Text>
-          </Card.Body>
-        </Card>
+          <Card className={styles.CardCss}>
+            <Card.Body>
+              <Card.Title className={styles.Protext}>
+                (*) Intro To HTB Academy
+              </Card.Title>
+            </Card.Body>
+          </Card>
+          <svg height="5" width="100%" className={styles.dashedline}>
+              <line
+                x1="0"
+                y1="0"
+                x2="100%"
+                y2="0"
+                style={{
+                  stroke: "white",
+                  strokeWidth: 2,
+                  strokeDasharray: "5, 5",
+                }}
+              />
+            </svg>
         </Link>
-        
       </div>
-    </>
-  )
-}
+    </div>
+  );
+};
 
-export default ProjectDash
+export default ProjectDash;

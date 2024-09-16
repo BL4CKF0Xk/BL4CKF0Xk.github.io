@@ -23,22 +23,22 @@
     text-align: left;
 }
 
-.quotes{
+.latest{
     color: #fff;
-    margin-top: 4vh;
-    font-size: 1rem;
+    margin-top: 2vh;
+    font-size: 1.3rem;
 }
 
 .highlights{
     color: #fff;
-    margin-top: 3vh;
-    font-size: 1rem;
+    margin-top: 1vh;
+    font-size: 1.3rem;
 }
 
 li{
     list-style-type: none; /* Remove bullet points */
     text-decoration: none;
-    font-size: 1rem;
+    font-size: 1.2rem;
 }
 
 p{
@@ -46,8 +46,16 @@ p{
     font-size: 1.5rem;
 }
 
-.first-para{
-    margin-bottom: 3vh;
+.firstpara{
+    margin-bottom: 1vh;
+}
+
+.firstpara p{
+    font-size: 1.5rem;
+}
+
+.secondpara{
+    font-size: 1.3rem;
 }
 
 a{
@@ -57,8 +65,4 @@ a{
 
 a:hover{
     text-decoration: underline;
-}
-
-.highlights{
-    translate: 0px 0px;
 }

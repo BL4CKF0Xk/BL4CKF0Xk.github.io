@@ -1,5 +1,5 @@
 import React from 'react'
-import './About.css'
+import styles from './About.module.css'
 import Pic from '../assets/images/propic.jpg'
 
 import { Link } from "react-router-dom";
@@ -8,14 +8,14 @@ import { Link } from "react-router-dom";
 const About = () => {
 
   return (
-    <div className='about'>
-      <div className='headingfirst'>
-        <p className='head'>Fox</p>
-        <div className='links'>
+    <div className={styles.about}>
+      <div className={styles.headingfirst}>
+        <p className={styles.head}>Fox</p>
+        <div className={styles.links}>
           <p>! Links :
             <Link to='/'>Home</Link> | <Link to='/projects'>Blog</Link> | <Link to='/about'>Fox</Link></p>
         </div>
-        <p className='headt'>What kind of <span style={{ color: '#AD00FF' }}>Fox</span> this is?</p>
+        <p className={styles.headt}>What kind of <span style={{ color: '#AD00FF' }}>Fox</span> this is?</p>
       </div>
       <div>
         <p>
@@ -31,7 +31,7 @@ const About = () => {
           Web developer
         </p>
       </div>
-      <div className='text'>
+      <div className={styles.text}>
       <p>
             jsjbjhdbvabsuihefiufvkjsbv <br/>
             kjsdvjksbdvkbksjdbv<br/>
@@ -40,7 +40,7 @@ const About = () => {
           </p>
       </div>
       <div>
-        <img src={Pic} alt='pic' className='pic'/>
+        <img src={Pic} alt='pic' className={styles.pic}/>
       </div>
     </div>
 

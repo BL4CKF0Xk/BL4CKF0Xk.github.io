@@ -44,3 +44,7 @@ ul{
   color: #fff;
   transition: 0.3s;
 }
+
+.links{
+  float: right;
+}

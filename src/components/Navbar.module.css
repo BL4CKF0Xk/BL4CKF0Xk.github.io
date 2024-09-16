@@ -1,16 +1,9 @@
-.bottom{
-    
-}
-
 .header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem;
-    border-bottom: 1px dashed transparent;
-    border-image: linear-gradient(to right, #fff 30%, transparent 90%) 1;
-    border-image-slice: 1;
-    border-image-width: 1;
+    padding-left: 1rem;
+    padding-right: 1rem;
 
     /*to stay on top*/
     position: fixed;
@@ -21,6 +14,13 @@
     background: rgba((255), 255, 255, 0.25);
     backdrop-filter: blur(4px);
     -webkit-backdrop-filter: blur(4px);
+}
+
+.dashedline{
+     position: fixed;
+     width: 100%;
+     z-index: 10;
+    margin-top: 4.5rem;
 }
 
 .header-bg{
@@ -40,7 +40,7 @@ li{
     padding-right: 2rem;
 }
 
-.blinking-cursor{
+.blinkingcursor{
     /* font-size: 1.3rem; */
     color: #fff;
     animation: blink 1s step-end infinite;

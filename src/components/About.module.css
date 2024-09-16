@@ -27,3 +27,41 @@
     margin-top: 3rem;
     margin-bottom: 3rem;
 }
+
+@media screen and (max-width: 640px) {
+    .about{
+        padding: 4rem 2rem 0 2rem;
+    }
+
+    .head{
+        font-size: 2rem;
+    }
+
+    .headt{
+        font-size: 1rem;
+    }
+
+    .pic{
+        height: 100px;
+        width: 100px;
+        border-radius: 50px;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .links p{
+        font-size: 0.8rem;
+    }
+
+    .longtext p{
+        font-size: 1rem;
+    }
+
+    .des p{
+        font-size: 1rem;
+    }
+
+    .text p{
+        font-size: 1rem;
+    }
+}

@@ -66,3 +66,37 @@ a{
 a:hover{
     text-decoration: underline;
 }
+
+@media screen and (max-width:640px){
+    .hero{
+        padding-top: 5vh;
+    }
+    .detail{
+        top: 10%;
+        left: 2rem;
+    }
+
+    .latest{
+        font-size: 1rem;
+    }
+
+    .highlights{
+        font-size: 1rem;
+    }
+
+    li{
+        font-size: 1rem;
+    }
+
+    p{
+        font-size: 1rem;
+    }
+
+    .firstpara p{
+        font-size: 1rem;
+    }
+
+    .secondpara{
+        font-size: 1rem;
+    }
+}

@@ -17,12 +17,12 @@ const About = () => {
         </div>
         <p className={styles.headt}>What kind of <span style={{ color: '#AD00FF' }}>Fox</span> this is?</p>
       </div>
-      <div>
+      <div className={styles.longtext}>
         <p>
           I’m <span style={{ color: '#00ff00' }}>bl4ckf0xk</span> (Kavindu Sahan), <span style={{ color: 'red' }}>Reverse</span> Engineer and Security Researcher
         </p>
       </div>
-      <div>
+      <div className={styles.des}>
         <p>
           Technical Consultant at Inivos | Defensive Security Analyst
           <br />
@@ -33,10 +33,10 @@ const About = () => {
       </div>
       <div className={styles.text}>
       <p>
-            jsjbjhdbvabsuihefiufvkjsbv <br/>
-            kjsdvjksbdvkbksjdbv<br/>
-            alfksjkfjbksbjbgjbsbg<br/>
-            aljsfksjbjfbsejsjhebg<br/>
+            Learning Blockchain & AI Security<br/>
+            Focused on Buffer Overflows, Exploit development and Assembly Programming <br/>
+            Working as a Technical Consultant at Inivos<br/>
+            Interested in Cryptography<br/>
           </p>
       </div>
       <div>

@@ -30,3 +30,28 @@ p{
     padding-right: 3rem;
     font-size: 1.5rem;
 }
+
+@media screen and (max-width:640px){
+    .footer{
+        padding-top: 1vh;
+        padding-bottom: 1vh;
+    }
+
+    .foottext{
+        font-size: 0.8rem;
+        padding-left: 2rem;
+    }
+
+    .footcon{
+        padding-left: 2rem;
+    }
+
+    .footcon p{
+        font-size: 0.8rem;
+    }
+
+    .simbol{
+        padding-right: 2rem;
+        font-size: 1rem;
+    }
+}

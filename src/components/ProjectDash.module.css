@@ -27,7 +27,7 @@
 .links{
     float: right;
     padding-right: 5rem;
-    font-size: 1rem;
+    padding-top: 7vh;
 }
 
 .CardCss{
@@ -44,28 +44,33 @@
 }
 
 @media screen and (max-width:640px){
-    .headingsli{
-        font-size: 40px;
-        padding-bottom: 50px;
+    .projectdash{
+        padding-left: 2rem;
+        padding-top: 5vh;
     }
-    .Protext{
-        font-size:20px;
-        font-weight:700;
+    .cards{
+        width: 20vh;
+    }
+    .blogtext{
+        font-size: 2rem;
+    }
+    .headingtwo{
+        font-size: 1.5vh;
+    }
+    .links p{
+        font-size: 0.8rem;
+        float: left;
+        padding-right: 0.2rem;
     }
     .CardCss{
-        padding: 0 0;
-        width:15rem;
+        width: 20vh;
     }
-    .ProCard2{
-        padding-left: 23%;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
+    .dashedline {
+        display: none;
     }
-    .cardtext{
-        color: rgba(134, 125, 125, 0.2);
+    .Protext{
+        font-size:1.5vh;
     }
-    
 }
 
 @media screen and (max-width:1000px){
@@ -81,10 +86,8 @@
         padding: 0 0;
         width:15rem;
     }
-    .ProCard2{
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
+    .Protext{
+        font-size: 1rem;
     }
     .cardtext{
         color: rgba(134, 125, 125, 0.2);

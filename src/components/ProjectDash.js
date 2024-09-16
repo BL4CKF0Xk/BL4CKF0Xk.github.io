@@ -7,13 +7,13 @@ import styles from "./ProjectDash.module.css";
 const ProjectDash = () => {
   return (
     <div className={styles.projectdash}>
-      <h1 className={styles.blogtext}>Blog</h1>
       <div className={styles.links}>
         <p>
           ! Links :<Link to="/">Home</Link> | <Link to="/projects">Blog</Link> |{" "}
           <Link to="/about">Fox</Link>
         </p>
       </div>
+      <h1 className={styles.blogtext}>Blog</h1>
       <p className={styles.headingtwo}>
         Details about recent <span style={{ color: "#70FF00" }}>Incidents</span>{" "}
         in my Learning System

@@ -5,7 +5,7 @@
 }
 
 .con {
-  padding: 2vh 6vh 0 7.5vh;
+  padding: 5vh 6vh 0 7.5vh;
 }
 
 .code {
@@ -105,7 +105,7 @@ h4 {
 
 @media screen and (max-width: 640px) {
   .con {
-    padding: 4vh 2vh 0 2vh;
+    padding: 7vh 2vh 0 2vh;
   }
 
   .headingblog {

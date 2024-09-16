@@ -1,7 +1,7 @@
 .projectdash{
     align-items:start;
     padding-left: 5rem;
-    padding-top: 5vh;
+    padding-top: 6vh;
 }
 
 .cards{
@@ -46,7 +46,7 @@
 @media screen and (max-width:640px){
     .projectdash{
         padding-left: 2rem;
-        padding-top: 5vh;
+        padding-top: 6vh;
     }
     .cards{
         width: 20vh;

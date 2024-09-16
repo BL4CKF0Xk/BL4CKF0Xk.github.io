@@ -23,6 +23,10 @@
     text-align: left;
 }
 
+.firstpara p{
+    font-family: "Caveat", sans-serif;
+}
+
 .latest{
     color: #fff;
     margin-top: 2vh;

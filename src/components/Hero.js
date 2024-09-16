@@ -10,8 +10,8 @@ function Hero() {
         <div className={styles.detail}>
           <div className={styles.firstpara}>
             <p>
-              I’m <span style={{ color: "#00ff00" }}>bl4ckf0xk</span> (Kavindu
-              Sahan), <span style={{ color: "red" }}>Reverse</span> Engineer and
+              I’m <span style={{ color: "#00ff00", fontFamily: '"Caveat", sans-serif' }}>bl4ckf0xk</span> (Kavindu
+              Sahan), <span style={{ color: "red", fontFamily: '"Caveat", sans-serif' }}>Reverse</span> Engineer and
               Security Researcher
             </p>
           </div>

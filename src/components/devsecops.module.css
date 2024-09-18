@@ -1,0 +1,102 @@
+.projectdash{
+    align-items:start;
+    padding-left: 5rem;
+    padding-top: 6vh;
+}
+
+.cards{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    width: 40vh;
+}
+
+.blogtext{
+    text-align:start;
+    padding-top: 4vh;
+    font-size: 4rem;
+}
+
+.blogtextt{
+    text-align:start;
+    padding-top: 4vh;
+    font-size: 3.5rem;
+    color: #fff;
+}
+
+.headingtwo{
+    color: #fff;
+    font-size: 2vh;
+}
+
+.links{
+    float: right;
+    padding-right: 5rem;
+    padding-top: 7vh;
+}
+
+.CardCss{
+    padding-bottom: 0.5vh;
+    width: 40vh;
+}
+
+.dashedline {
+    display: block;
+  }  
+
+.Protext{
+    font-size:2vh;
+}
+
+@media screen and (max-width:640px){
+    .projectdash{
+        padding-left: 2rem;
+        padding-top: 6vh;
+    }
+    .cards{
+        width: 20vh;
+    }
+    .blogtext{
+        font-size: 2rem;
+    }
+    .headingtwo{
+        font-size: 1.5vh;
+    }
+    .links p{
+        font-size: 0.8rem;
+        float: left;
+        padding-right: 0.2rem;
+    }
+    .CardCss{
+        width: 20vh;
+    }
+    .dashedline {
+        display: none;
+    }
+    .Protext{
+        font-size:1.5vh;
+    }
+}
+
+@media screen and (max-width:1000px){
+    .headingsli{
+        font-size: 40px;
+        padding-bottom: 50px;
+    }
+    .Protext{
+        font-size:20px;
+        font-weight:700;
+    }
+    .CardCss{
+        padding: 0 0;
+        width:15rem;
+    }
+    .Protext{
+        font-size: 1rem;
+    }
+    .cardtext{
+        color: rgba(134, 125, 125, 0.2);
+    }
+}

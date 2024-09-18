@@ -1,0 +1,162 @@
+.containerblog {
+  width: 100%;
+  height: auto;
+  background-color: rgba(83, 83, 83, 0.2);
+}
+
+.con {
+  padding: 5vh 6vh 0 7.5vh;
+}
+
+.code {
+  border-radius: 50px;
+}
+
+.headingblog {
+  text-align: start;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  font-size: 50px;
+}
+
+.headingf {
+  text-align: start;
+  justify-content: start;
+  padding-top: 8vh;
+  font-weight: 100;
+}
+
+.headingt {
+  font-size: 3rem;
+  padding-bottom: 2vh;
+}
+
+.links {
+  float: right;
+  padding-top: 10vh;
+}
+
+.iconblo {
+  font-size: 50px;
+  margin-left: 40px;
+  transform: translateY(70px);
+}
+
+.headingblog h1 {
+  font-size: 3rem;
+}
+
+.headingdet {
+  text-align: start;
+  align-items: start;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 1vh;
+  color: #fff;
+}
+
+.headingdet h6 {
+  font-size: 15px;
+  padding: 1vh;
+}
+
+.blogbody {
+  padding-top: 2vh;
+}
+
+.process {
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+  color: #fff;
+}
+
+.process li {
+  font-size: 30px;
+}
+
+.subheading {
+  font-size: 2rem;
+  color: #fff;
+}
+
+.subheaddes {
+  padding-bottom: 1vh;
+  color: #fff;
+}
+
+.section {
+  padding-bottom: 1vh;
+}
+
+.Video {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+p {
+  font-size: 1.3rem;
+}
+
+h4 {
+  font-size: 1.3rem;
+}
+
+@media screen and (max-width: 640px) {
+  .con {
+    padding: 7vh 2vh 0 2vh;
+  }
+
+  .headingblog {
+    font-size: 30px;
+  }
+
+  .headingf {
+    padding-top: 4vh;
+  }
+
+  .headingt {
+    font-size: 2rem;
+  }
+
+  .iconblo {
+    font-size: 30px;
+    margin-left: 20px;
+    transform: translateY(50px);
+  }
+
+  .headingblog h1 {
+    font-size: 2rem;
+  }
+
+  .headingdet h6 {
+    font-size: 10px;
+  }
+
+  .process li {
+    font-size: 20px;
+  }
+
+  .subheading {
+    font-size: 1.5rem;
+  }
+
+  .subheaddes {
+    font-size: 1rem;
+  }
+
+  .section {
+    padding-bottom: 1vh;
+  }
+
+  .Video {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+}

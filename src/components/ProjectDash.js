@@ -19,6 +19,28 @@ const ProjectDash = () => {
         in my Learning System
       </p>
       <div className={styles.cards}>
+      <Link to="/devsecops">
+          <Card className={styles.CardCss}>
+            <Card.Body>
+              <Card.Title className={styles.Protext}>
+                (+) DevSecOps
+              </Card.Title>
+            </Card.Body>
+          </Card>
+          <svg height="5" width="100%" className={styles.dashedline}>
+              <line
+                x1="0"
+                y1="0"
+                x2="100%"
+                y2="0"
+                style={{
+                  stroke: "white",
+                  strokeWidth: 2,
+                  strokeDasharray: "5, 5",
+                }}
+              />
+            </svg>
+        </Link>
         <Link to="/projects/Making_Shellcode">
           <Card className={styles.CardCss}>
             <Card.Body>

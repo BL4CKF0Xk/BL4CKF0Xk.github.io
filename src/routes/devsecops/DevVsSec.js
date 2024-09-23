@@ -3,8 +3,6 @@ import styles from "./blogpost.module.css";
 
 import { useNavigate } from "react-router-dom";
 
-import devtypical from '../../assets/images/devsecops/devopstyp.png';
-
 import Footer from "../../components/Footer";
 import Navbar from "../../components/Navbar";
 import { Link } from "react-router-dom";
@@ -44,125 +42,124 @@ const DevVsSec = () => {
           </div>
 
           <div className={styles.headingblog}>
-            <h1>Making shellcode</h1>
+            <h1>DevOps vs DevSecOps</h1>
           </div>
           <div className={styles.headingdet}>
-            <h6>06/07/2024</h6>
+            <h6>22/09/2024</h6>
             <h6>writer: bl4ckf0xk</h6>
           </div>
           <hr></hr>
           <div className={styles.blogbody}>
             <div className={styles.section}>
               <p className={styles.subheaddes}>
-              Typical DevOps processes →
-              </p>
-              <img src={devtypical} alt="dev typical" />
-              <p className={styles.subheaddes}>
-              Aaand this is the DevSecOps Process →
+                DevOps → Combination of Software Development (Dev) and Operations (Ops).
               </p>
               <p className={styles.subheaddes}>
-                These fundamental data types enable the processor to perform
-                numerical and logical operations using signed and unsigned
-                integers, single precision(32-bit) and double precision(64-bit)
-                floating point values, text strings and SMID values
+                DevSecOps → Combination of Development (Dev), Security (Sec), and Operations (Ops).
+              </p>
+              <p className={styles.subheaddes}>
+                In a typical DevOps environment, developers care about the security of the application in the last stages of the development, and this can lead to various issue like finding a critical bug in the build and had to remediate it when the application on live. This increases the risk of exploiting the vulnerable application by an attacker and at the same time this will increase the cost for application to deploy.
+              </p>
+              <p className={styles.subheaddes}>
+                So, if this Testing the security of application part comes to an early stage this issue can be answered. Here comes the DevSecOps!
+              </p>
+              <p className={styles.subheaddes}>
+                In DevSecOps, each step of SDLC has a step of testing the application for bugs, typos, standards and vulnerabilities. By using this module developers can build fast without worrying that they have to correct bugs at the end of the Lifecycle because the bugs will be found and fixed in the exact part of Lifecycle. It’s obvious that risk will decrease drastically.
               </p>
 
-              <p>
-                <i>Data Types</i>
-              </p>
-              <h4>&#62; Byte &#91;size 8 bits&#93;</h4>
-              <h4>&#62; Word &#91;size 16 bits&#93;</h4>
-              <h4>&#62; DoubleWord &#91;size 32 bits&#93; </h4>
-              <h4>&#62; QuadWord &#91;size 64 bits&#93;</h4>
-              <h4>&#62; Double Quad Word &#91;size 128 bits&#93;</h4>
+              <h2 className={styles.subheading}>Security Aspects care about in DevSecOps</h2>
+              <ul>
+                <li> Secure Configuration — Prevent exposing the sensitive data to external systems </li>
+                <li>Secure Code — Perform code analysis</li>
+                <li>Secure Dependencies — Carry out dependency scans</li>
+                <li>Secure Interfaces — Perform scans that verify the security of external exposed parts of the application</li>
+                <li>Secure Artifacts — Scan the containers and docker images</li>
+                <li>Monitor and Prevent — Check for runtime security and remediate any issue happen</li>
+              </ul>
 
-              <p className={styles.subheaddes}>
-                Fundamental Data Types are numbered from right to left with zero
-                and size-1 used to identify the least and the most significant
-                bits, respectively
-              </p>
-              <p className={styles.subheaddes}>
-                Fundamental Data Types larger than a single byte and stored in
-                consective memory locations starting with the least-signifcant
-                byte at the lowest memory address. This type of in-memory byte
-                ordering is called{" "}
-                <span style={{ color: "red" }}>little endian</span>
-              </p>
-
-              {/* <div className='code'>
-                <SyntaxHighlighter language="python" style={atomOneDark} customStyle={{padding:"20px"}}>
-                    print("Hello world")
-                </SyntaxHighlighter>
-                </div> */}
             </div>
             <div className={styles.section}>
-              <h2 className={styles.subheading}># Numerical Data Types</h2>
+              <h2 className={styles.subheading}>Adding Security to each step of DevOps pipeline</h2>
               <p className={styles.subheaddes}>
-                x86-64 instruction set intrinsically supports arithmetic and
-                logical operations using 8,16,32 and 64-bit integers, both
-                signed and unsigned<br></br>
-                It also supports arithmetic calculations and data manipulation
-                operations using single precision and double precision
-                floating-point values.
-              </p>
+                Develop
+                </p>
+                <p className={styles.subheaddes}>
+                  Pre-Commit Hooks — Check the code before commit | Pre-Publish Hooks | IDE Plugins
+                </p>
+                <p className={styles.subheaddes}>
+                  Git
+                </p>
+                <p className={styles.subheaddes}>
+                  Code scans | Secret Vault
+                </p>
+                <p className={styles.subheaddes}>
+                  Test
+                </p>
+                <p className={styles.subheaddes}>
+                  Unit Test | Mutation Test | Static Code Analysis
+                </p>
+                <p className={styles.subheaddes}>
+                  Build
+                </p>
+                <p className={styles.subheaddes}>
+                  Dependency Scan | Container Image Scan
+                </p>
+                <p className={styles.subheaddes}>
+                  Deploy — stage
+                </p>
+                <p className={styles.subheaddes}>
+                  Validate Image Signature | Integration Testing
+                </p>
+                <p className={styles.subheaddes}>
+                  Deploy — Prod
+                </p>
+                <p className={styles.subheaddes}>
+                  Validate runtime Configs | DAST pen test | Infrastructure Compliance Checks | Performance Test
+                </p>
+                <p className={styles.subheaddes}>
+                  Monitor
+                </p>
+                <p className={styles.subheaddes}>
+                  Log aggregation | Security Logs | Resource Utilization
+                </p>
+                <p className={styles.subheaddes}>
+                  Security
+                </p>
+                <p className={styles.subheaddes}>
+                  SSL/TLS | Network Policies | Auditing
+                </p>
 
-              <p className={styles.subheaddes}>
-                A numerical data type is an elementary scalar value such as an
-                integer or floating-point number.
-              </p>
-
-              <p>
-                <i>Data Types</i>
-              </p>
-              <h4>&#62; Signed Integers</h4>
-              <h4>&#62; Unsigned Integers</h4>
-              <h4>&#62; Floating-point</h4>
-            </div>
-            <div className={styles.section}>
-              <h2 className={styles.subheading}># SMID Data Types</h2>
-              <p className={styles.subheaddes}>
-                A SMID Data Type can be regarded as a container object that
-                holds several instances of the same fundamental data type.
-              </p>
-              <p className={styles.subheaddes}>
-                Like Fundamental Data types the bits of a SMID data type are
-                numbered from right to left with zero and size-1 denoting the
-                least and most significant bits respectively. Also Little Endian
-                ordaring can be used in this data type.
-              </p>
-
-              <p>
-                <i>Data Types</i>
-              </p>
-              <h4>&#62; 8-bit Integer</h4>
-              <h4>&#62; 16-bit Integer</h4>
-              <h4>&#62; 32-bit Integer</h4>
-              <h4>&#62; 64-bit Integer</h4>
-              <h4>&#62; Single precision Floating-point</h4>
-              <h4>&#62; Double precision Floating-point</h4>
-            </div>
-
-            <div className={styles.section}>
-              <h2 className={styles.subheading}># Miscellaneous Data Types</h2>
-              <p className={styles.subheaddes}>
-                x86 platform supports a number of miscellaneous data types
-                including strings, bit fields and bit strings.
-              </p>
-
-              <p className={styles.subheaddes}>
-                An x86 string is contiguous block of bytes, words, double words
-                and quad words
-              </p>
-
-              <p className={styles.subheaddes}>
-                A bit field is a contiguous sequence of bits and is used as a
-                mask value by some instructions
-              </p>
-
-              <p className={styles.subheaddes}>
-                A bit string is a contiguous sequence of bits containing upto 2
-                <sup>32</sup>-1 bits.
-              </p>
+                <h2 className={styles.subheading}>Common Tools for DevSecOps</h2>
+                <p className={styles.subheaddes}>
+                  Version Control & Pre-Commit: Talisman, GitHub
+                </p>
+                <p className={styles.subheaddes}>
+                  CI/CD Pipelines: Maven, Jenkins
+                </p>
+                <p className={styles.subheaddes}>
+                  Testing: PIT Test (Mutation Testing), JMeter (Performance)
+                </p>
+                <p className={styles.subheaddes}>
+                  Code Analysis: SonarQube (SAST)
+                </p>
+                <p className={styles.subheaddes}>
+                  Container Security: Trivy (Container Scanning), KubeSec
+                </p>
+                <p className={styles.subheaddes}>
+                  Policy Enforcement & Auditing: OPA, Kube-bench
+                </p>
+                <p className={styles.subheaddes}>
+                  Pen Testing & DAST: OWASP ZAP
+                </p>
+                <p className={styles.subheaddes}>
+                  Monitoring & Alerts: Falco, Grafana
+                </p>
+                <p className={styles.subheaddes}>
+                  Networking & Traffic Monitoring: Istio, Kiali
+                </p>
+                <p className={styles.subheaddes}>
+                  Collaboration & Alerts: Slack
+                </p>
             </div>
           </div>
           <svg height="5" width="100%" className={styles.dashedline}>

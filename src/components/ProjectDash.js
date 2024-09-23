@@ -19,27 +19,25 @@ const ProjectDash = () => {
         in my Learning System
       </p>
       <div className={styles.cards}>
-      <Link to="/devsecops">
+        <Link to="/devsecops">
           <Card className={styles.CardCss}>
             <Card.Body>
-              <Card.Title className={styles.Protext}>
-                (+) DevSecOps
-              </Card.Title>
+              <Card.Title className={styles.Protext}>(+) DevSecOps</Card.Title>
             </Card.Body>
           </Card>
           <svg height="5" width="100%" className={styles.dashedline}>
-              <line
-                x1="0"
-                y1="0"
-                x2="100%"
-                y2="0"
-                style={{
-                  stroke: "white",
-                  strokeWidth: 2,
-                  strokeDasharray: "5, 5",
-                }}
-              />
-            </svg>
+            <line
+              x1="0"
+              y1="0"
+              x2="100%"
+              y2="0"
+              style={{
+                stroke: "white",
+                strokeWidth: 2,
+                strokeDasharray: "5, 5",
+              }}
+            />
+          </svg>
         </Link>
         <Link to="/projects/Making_Shellcode">
           <Card className={styles.CardCss}>
@@ -50,38 +48,40 @@ const ProjectDash = () => {
             </Card.Body>
           </Card>
           <svg height="5" width="100%" className={styles.dashedline}>
-              <line
-                x1="0"
-                y1="0"
-                x2="100%"
-                y2="0"
-                style={{
-                  stroke: "white",
-                  strokeWidth: 2,
-                  strokeDasharray: "5, 5",
-                }}
-              />
-            </svg>
+            <line
+              x1="0"
+              y1="0"
+              x2="100%"
+              y2="0"
+              style={{
+                stroke: "white",
+                strokeWidth: 2,
+                strokeDasharray: "5, 5",
+              }}
+            />
+          </svg>
         </Link>
         <Link to="/projects/Basic_Tools">
           <Card className={styles.CardCss}>
             <Card.Body>
-              <Card.Title className={styles.Protext}>(*) Basic Tools</Card.Title>
+              <Card.Title className={styles.Protext}>
+                (*) Basic Tools
+              </Card.Title>
             </Card.Body>
           </Card>
           <svg height="5" width="100%" className={styles.dashedline}>
-              <line
-                x1="0"
-                y1="0"
-                x2="100%"
-                y2="0"
-                style={{
-                  stroke: "white",
-                  strokeWidth: 2,
-                  strokeDasharray: "5, 5",
-                }}
-              />
-            </svg>
+            <line
+              x1="0"
+              y1="0"
+              x2="100%"
+              y2="0"
+              style={{
+                stroke: "white",
+                strokeWidth: 2,
+                strokeDasharray: "5, 5",
+              }}
+            />
+          </svg>
         </Link>
         <Link to="/projects/Bash">
           <Card className={styles.CardCss}>
@@ -90,38 +90,40 @@ const ProjectDash = () => {
             </Card.Body>
           </Card>
           <svg height="5" width="100%" className={styles.dashedline}>
-              <line
-                x1="0"
-                y1="0"
-                x2="100%"
-                y2="0"
-                style={{
-                  stroke: "white",
-                  strokeWidth: 2,
-                  strokeDasharray: "5, 5",
-                }}
-              />
-            </svg>
+            <line
+              x1="0"
+              y1="0"
+              x2="100%"
+              y2="0"
+              style={{
+                stroke: "white",
+                strokeWidth: 2,
+                strokeDasharray: "5, 5",
+              }}
+            />
+          </svg>
         </Link>
         <Link to="/projects/Pentestingbasics">
           <Card className={styles.CardCss}>
             <Card.Body>
-              <Card.Title className={styles.Protext}>(*) Pentesting Basics</Card.Title>
+              <Card.Title className={styles.Protext}>
+                (*) Pentesting Basics
+              </Card.Title>
             </Card.Body>
           </Card>
           <svg height="5" width="100%" className={styles.dashedline}>
-              <line
-                x1="0"
-                y1="0"
-                x2="100%"
-                y2="0"
-                style={{
-                  stroke: "white",
-                  strokeWidth: 2,
-                  strokeDasharray: "5, 5",
-                }}
-              />
-            </svg>
+            <line
+              x1="0"
+              y1="0"
+              x2="100%"
+              y2="0"
+              style={{
+                stroke: "white",
+                strokeWidth: 2,
+                strokeDasharray: "5, 5",
+              }}
+            />
+          </svg>
         </Link>
         <Link to="/projects/Assembly_Data_Types">
           <Card className={styles.CardCss}>
@@ -132,58 +134,62 @@ const ProjectDash = () => {
             </Card.Body>
           </Card>
           <svg height="5" width="100%" className={styles.dashedline}>
-              <line
-                x1="0"
-                y1="0"
-                x2="100%"
-                y2="0"
-                style={{
-                  stroke: "white",
-                  strokeWidth: 2,
-                  strokeDasharray: "5, 5",
-                }}
-              />
-            </svg>
+            <line
+              x1="0"
+              y1="0"
+              x2="100%"
+              y2="0"
+              style={{
+                stroke: "white",
+                strokeWidth: 2,
+                strokeDasharray: "5, 5",
+              }}
+            />
+          </svg>
         </Link>
         <Link to="/projects/Way-of-learning">
           <Card className={styles.CardCss}>
             <Card.Body>
-              <Card.Title className={styles.Protext}>(*) Way of Learning</Card.Title>
+              <Card.Title className={styles.Protext}>
+                (*) Way of Learning
+              </Card.Title>
             </Card.Body>
           </Card>
           <svg height="5" width="100%" className={styles.dashedline}>
-              <line
-                x1="0"
-                y1="0"
-                x2="100%"
-                y2="0"
-                style={{
-                  stroke: "white",
-                  strokeWidth: 2,
-                  strokeDasharray: "5, 5",
-                }}
-              />
-            </svg>
+            <line
+              x1="0"
+              y1="0"
+              x2="100%"
+              y2="0"
+              style={{
+                stroke: "white",
+                strokeWidth: 2,
+                strokeDasharray: "5, 5",
+              }}
+            />
+          </svg>
         </Link>
         <Link to="/projects/Way-of-thinking">
           <Card className={styles.CardCss}>
             <Card.Body>
-              <Card.Title className={styles.Protext}>(*) Way Of Thinking</Card.Title>
+              <Card.Title className={styles.Protext}>
+                (*) Way Of Thinking
+              </Card.Title>
             </Card.Body>
           </Card>
           <svg height="5" width="100%" className={styles.dashedline}>
-              <line
-                x1="0"
-                y1="0"
-                x2="100%"
-                y2="0"
-                style={{
-                  stroke: "white",
-                  strokeWidth: 2,
-                  strokeDasharray: "5, 5",
-                }}
-              />
-            </svg>
+            <line
+              x1="0"
+              y1="0"
+              x2="100%"
+              y2="0"
+              style={{
+                stroke: "white",
+                strokeWidth: 2,
+                strokeDasharray: "5, 5",
+              }}
+            />
+          </svg>
         </Link>
         <Link to="/projects/intro-to-htb-academy">
           <Card className={styles.CardCss}>
@@ -194,18 +200,18 @@ const ProjectDash = () => {
             </Card.Body>
           </Card>
           <svg height="5" width="100%" className={styles.dashedline}>
-              <line
-                x1="0"
-                y1="0"
-                x2="100%"
-                y2="0"
-                style={{
-                  stroke: "white",
-                  strokeWidth: 2,
-                  strokeDasharray: "5, 5",
-                }}
-              />
-            </svg>
+            <line
+              x1="0"
+              y1="0"
+              x2="100%"
+              y2="0"
+              style={{
+                stroke: "white",
+                strokeWidth: 2,
+                strokeDasharray: "5, 5",
+              }}
+            />
+          </svg>
         </Link>
       </div>
     </div>

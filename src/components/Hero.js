@@ -10,9 +10,19 @@ function Hero() {
         <div className={styles.detail}>
           <div className={styles.firstpara}>
             <p>
-              I’m <span style={{ color: "#00ff00", fontFamily: '"Caveat", sans-serif' }}>bl4ckf0xk</span> (Kavindu
-              Sahan), <span style={{ color: "red", fontFamily: '"Caveat", sans-serif' }}>Reverse</span> Engineer and
-              Security Researcher
+              I’m{" "}
+              <span
+                style={{ color: "#00ff00", fontFamily: '"Caveat", sans-serif' }}
+              >
+                bl4ckf0xk
+              </span>{" "}
+              (Kavindu Sahan),{" "}
+              <span
+                style={{ color: "red", fontFamily: '"Caveat", sans-serif' }}
+              >
+                Reverse
+              </span>{" "}
+              Engineer and Security Researcher
             </p>
           </div>
           <p className={styles.secondpara}>
@@ -26,11 +36,11 @@ function Hero() {
             ^Latest :
             <ul>
               <li>
-                <Link to="/projects/Making_Shellcode">
+                <Link to="/devsecops/DevVsSec">
                   <Card className={styles.CardCss}>
                     <Card.Body>
                       <Card.Title className={styles.Protext}>
-                        - Making First ShellCode
+                        - DevOps vs DevSecOps
                       </Card.Title>
                     </Card.Body>
                   </Card>

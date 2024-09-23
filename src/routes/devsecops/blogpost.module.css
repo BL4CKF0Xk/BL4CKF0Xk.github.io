@@ -103,9 +103,11 @@ h4 {
   font-size: 1.3rem;
 }
 
-ul{
+ul {
+  list-style-type: circle; 
   color: white;
-  list-style: circle;
+  padding-left: 30px;
+  margin-bottom: 1rem; 
 }
 
 @media screen and (max-width: 640px) {
